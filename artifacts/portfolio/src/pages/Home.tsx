@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import profilePhoto from "@assets/1767216109601_1781552455595.jpg";
 import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion";
 import { 
   Github, 
@@ -147,7 +148,7 @@ export default function Home() {
       {/* About Section */}
       <section id="about" className="py-24 relative">
         <div className="container px-6 mx-auto">
-          <div className="grid md:grid-cols-2 gap-16 items-center">
+          <div className="grid md:grid-cols-2 gap-16 items-center mb-16">
             <motion.div 
               initial="hidden" whileInView="visible" viewport={{ once: true }} variants={FADE_UP}
             >
@@ -158,31 +159,44 @@ export default function Home() {
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
                 Beyond the terminal, I'm an active Toastmasters leader, serving as VP of Education. I believe that the best architectures are only as good as our ability to communicate them. I bridge the gap between deep technical implementation and strategic business value.
               </p>
-              
             </motion.div>
-            
-            <motion.div 
+
+            <motion.div
               initial="hidden" whileInView="visible" viewport={{ once: true }} variants={FADE_UP}
-              className="grid grid-cols-2 gap-4"
+              className="flex justify-center"
             >
-              <div className="p-6 bg-secondary/50 rounded-2xl border border-border/50">
-                <h3 className="text-4xl font-bold text-primary mb-2">4+</h3>
-                <p className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Certifications</p>
-              </div>
-              <div className="p-6 bg-secondary/50 rounded-2xl border border-border/50 mt-8">
-                <h3 className="text-4xl font-bold text-primary mb-2">MS</h3>
-                <p className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Info Tech</p>
-              </div>
-              <div className="p-6 bg-secondary/50 rounded-2xl border border-border/50">
-                <h3 className="text-4xl font-bold text-primary mb-2">10+</h3>
-                <p className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Cloud Projects</p>
-              </div>
-              <div className="p-6 bg-secondary/50 rounded-2xl border border-border/50 mt-8">
-                <h3 className="text-4xl font-bold text-primary mb-2">VPE</h3>
-                <p className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Toastmasters</p>
+              <div className="relative">
+                <div className="absolute -inset-1 rounded-2xl bg-gradient-to-br from-primary via-blue-400 to-primary/30 blur-sm opacity-60" />
+                <img
+                  src={profilePhoto}
+                  alt="Pooja Borade"
+                  className="relative w-72 h-72 md:w-80 md:h-80 object-cover object-top rounded-2xl border-2 border-primary/30 shadow-2xl"
+                />
               </div>
             </motion.div>
           </div>
+
+          <motion.div
+            initial="hidden" whileInView="visible" viewport={{ once: true }} variants={STAGGER}
+            className="grid grid-cols-2 md:grid-cols-4 gap-4"
+          >
+            <motion.div variants={FADE_UP} className="p-6 bg-secondary/50 rounded-2xl border border-border/50 text-center">
+              <h3 className="text-4xl font-bold text-primary mb-2">4+</h3>
+              <p className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Certifications</p>
+            </motion.div>
+            <motion.div variants={FADE_UP} className="p-6 bg-secondary/50 rounded-2xl border border-border/50 text-center">
+              <h3 className="text-4xl font-bold text-primary mb-2">MS</h3>
+              <p className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Info Tech</p>
+            </motion.div>
+            <motion.div variants={FADE_UP} className="p-6 bg-secondary/50 rounded-2xl border border-border/50 text-center">
+              <h3 className="text-4xl font-bold text-primary mb-2">4</h3>
+              <p className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Cloud Projects</p>
+            </motion.div>
+            <motion.div variants={FADE_UP} className="p-6 bg-secondary/50 rounded-2xl border border-border/50 text-center">
+              <h3 className="text-4xl font-bold text-primary mb-2">VPE</h3>
+              <p className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Toastmasters</p>
+            </motion.div>
+          </motion.div>
         </div>
       </section>
 
