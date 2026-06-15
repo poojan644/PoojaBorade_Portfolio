@@ -520,7 +520,7 @@ export default function Home() {
         <div className="container px-6 mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-center md:text-left">
             <span className="text-2xl font-bold tracking-tighter text-primary">PB.</span>
-            <p className="text-muted-foreground mt-2">Azure Solutions Architect & IT Engineer</p>
+            <p className="text-muted-foreground mt-2">Azure Solutions Architect Expert Professional</p>
           </div>
           
           <div className="flex items-center gap-6">
