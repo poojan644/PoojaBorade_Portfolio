@@ -8,6 +8,7 @@ import {
   MapPin, 
   ExternalLink, 
   ChevronRight,
+  Download,
   Terminal,
   Cloud,
   Shield,
@@ -128,6 +129,13 @@ export default function Home() {
             <div className="flex flex-wrap items-center gap-4">
               <a href="#experience" className="px-8 py-4 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-colors flex items-center gap-2">
                 View Experience <ChevronRight size={18} />
+              </a>
+              <a
+                href="/PoojaBorade_Resume.pdf"
+                download="PoojaBorade_Resume.pdf"
+                className="px-8 py-4 bg-transparent border border-primary/60 text-primary rounded-lg font-semibold hover:bg-primary/10 transition-colors flex items-center gap-2"
+              >
+                <Download size={18} /> Download Resume
               </a>
               <div className="flex items-center gap-4 px-4">
                 <a href="https://github.com/poojan644" target="_blank" rel="noreferrer" className="p-3 bg-secondary text-secondary-foreground rounded-full hover:bg-secondary/80 transition-colors">
