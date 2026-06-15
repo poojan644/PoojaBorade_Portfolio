@@ -490,6 +490,31 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Get in Touch Section */}
+      <section id="contact" className="py-24 relative">
+        <div className="container px-6 mx-auto text-center">
+          <SectionHeading title="Get in Touch" subtitle="Have a project in mind or want to connect?" icon={Mail} />
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            variants={FADE_UP}
+            className="max-w-xl mx-auto mt-8"
+          >
+            <p className="text-muted-foreground mb-8 text-lg">
+              I'm currently open to new opportunities and collaborations. Whether you have a question, a project idea, or just want to say hello — my inbox is always open.
+            </p>
+            <a
+              href="mailto:poojaborade7022@gmail.com"
+              className="inline-flex items-center gap-3 px-8 py-4 bg-primary text-primary-foreground rounded-xl font-semibold text-lg hover:opacity-90 transition-opacity group"
+            >
+              <Mail size={22} />
+              poojaborade7022@gmail.com
+            </a>
+          </motion.div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-background border-t border-border py-12">
         <div className="container px-6 mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
