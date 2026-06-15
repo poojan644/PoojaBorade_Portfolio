@@ -132,7 +132,7 @@ export default function Home() {
                 <a href="https://github.com/poojan644" target="_blank" rel="noreferrer" className="p-3 bg-secondary text-secondary-foreground rounded-full hover:bg-secondary/80 transition-colors">
                   <Github size={20} />
                 </a>
-                <a href="https://linkedin.com/in/poojaborade" target="_blank" rel="noreferrer" className="p-3 bg-secondary text-secondary-foreground rounded-full hover:bg-secondary/80 transition-colors">
+                <a href="https://www.linkedin.com/in/pooja-madhukar-borade-618618210/" target="_blank" rel="noreferrer" className="p-3 bg-secondary text-secondary-foreground rounded-full hover:bg-secondary/80 transition-colors">
                   <Linkedin size={20} />
                 </a>
                 <a href="mailto:poojaborade7022@gmail.com" className="p-3 bg-secondary text-secondary-foreground rounded-full hover:bg-secondary/80 transition-colors">
@@ -159,9 +159,6 @@ export default function Home() {
                 Beyond the terminal, I'm an active Toastmasters leader, serving as VP of Education. I believe that the best architectures are only as good as our ability to communicate them. I bridge the gap between deep technical implementation and strategic business value.
               </p>
               
-              <div className="flex items-center gap-2 text-sm text-primary font-medium">
-                <MapPin size={18} /> Southfield, Michigan (Open to relocate)
-              </div>
             </motion.div>
             
             <motion.div 
@@ -207,7 +204,7 @@ export default function Home() {
                 <div className="md:text-right pb-4 md:pb-0">
                   <h3 className="text-2xl font-bold text-foreground">Graduate Research Assistant</h3>
                   <p className="text-primary font-medium text-lg mb-2">Lawrence Technological University</p>
-                  <p className="text-sm text-muted-foreground">Aug 2025 – Present | Southfield, MI</p>
+                  <p className="text-sm text-muted-foreground">Aug 2025 – May 2026 | Southfield, MI</p>
                 </div>
                 <div>
                   <ul className="space-y-3 text-muted-foreground">
@@ -332,7 +329,7 @@ export default function Home() {
               <div className="p-8 flex flex-col flex-1">
                 <div className="flex items-center justify-between mb-4">
                   <h3 className="text-2xl font-bold">Zero Trust DevSecOps Platform</h3>
-                  <a href="https://github.com/poojan644" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                  <a href="https://github.com/poojan644/Zero-Trust-DevSecOps-Platform-on-Azure" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                     <Github size={24} />
                   </a>
                 </div>
@@ -355,7 +352,7 @@ export default function Home() {
               <div className="p-8 flex flex-col flex-1">
                 <div className="flex items-center justify-between mb-4">
                   <h3 className="text-2xl font-bold">Azure Secure Landing Zone</h3>
-                  <a href="https://github.com/poojan644" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                  <a href="https://github.com/poojan644/azure-secure-landing-zone-cli" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                     <Github size={24} />
                   </a>
                 </div>
@@ -377,8 +374,8 @@ export default function Home() {
               </div>
               <div className="p-8 flex flex-col flex-1">
                 <div className="flex items-center justify-between mb-4">
-                  <h3 className="text-2xl font-bold">Secure Web App Architecture</h3>
-                  <a href="https://github.com/poojan644" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                  <h3 className="text-2xl font-bold">Azure Secure Web App Architecture</h3>
+                  <a href="https://github.com/poojan644/azure-secure-webapp-zero-trust" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                     <Github size={24} />
                   </a>
                 </div>
@@ -400,7 +397,7 @@ export default function Home() {
               <div className="p-8 flex flex-col flex-1">
                 <div className="flex items-center justify-between mb-4">
                   <h3 className="text-2xl font-bold">SOC Lakehouse Analytics</h3>
-                  <a href="https://github.com/poojan644" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                  <a href="https://github.com/poojan644/soc-lakehouse-databricks-powerbi" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                     <Github size={24} />
                   </a>
                 </div>
@@ -483,9 +480,9 @@ export default function Home() {
                   <p className="text-primary font-medium">San Jose AI Simplifiers Toastmasters Club</p>
                 </motion.div>
                 <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={FADE_UP}>
-                  <h3 className="text-xl font-bold text-foreground">Member & Contributor</h3>
+                  <h3 className="text-xl font-bold text-foreground">Member</h3>
                   <p className="text-primary font-medium">Information Systems Audit and Control Association (ISACA)</p>
-                  <p className="text-sm text-muted-foreground mt-2">Co-Author: "Formulating Strategy based on SOAR and SWOT Concepts" (Ongoing)</p>
+                  <p className="text-sm text-muted-foreground mt-2">Active member engaging with cybersecurity, IT governance, and cloud risk management communities.</p>
                 </motion.div>
               </div>
             </div>
@@ -505,7 +502,7 @@ export default function Home() {
             <a href="https://github.com/poojan644" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
               <Github size={24} />
             </a>
-            <a href="https://linkedin.com/in/poojaborade" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+            <a href="https://www.linkedin.com/in/pooja-madhukar-borade-618618210/" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
               <Linkedin size={24} />
             </a>
             <a href="mailto:poojaborade7022@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
